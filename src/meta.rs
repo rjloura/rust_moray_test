@@ -3,7 +3,7 @@
  */
 
 use rust_fast::client as fast_client;
-use serde_json::{self, Value};
+use serde_json::{self, Value, json};
 use std::io::Error;
 use std::net::TcpStream;
 

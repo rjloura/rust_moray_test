@@ -5,6 +5,7 @@
 use rust_fast::client as fast_client;
 use serde::{Deserialize, Deserializer, Serialize};
 use serde_json::Value;
+use serde_json::json;
 use std::io::{Error, ErrorKind};
 use std::net::TcpStream;
 use uuid::Uuid;
